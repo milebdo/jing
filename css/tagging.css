@@ -1,0 +1,328 @@
+#logo
+{
+	width: 505px;
+	margin: 0 auto;
+	text-align: center;
+}
+#pgtitle
+{
+	margin: 0px 0px 20px;
+	font-size: 18pt;
+}
+#container
+{
+	display: block;
+	width: 850px;
+	height: 300px;
+	margin: 0 auto;
+}
+#imgtag
+{
+	position: relative;
+	min-width: 300px;
+	min-height: 300px;
+	float: none;
+	border: 3px solid #FFF;
+	/* cursor: pointer; */
+	text-align: center;
+}
+.tagview
+{
+	background-color: #285178;
+	width: 30px;
+	height: 18px; 
+	margin-left: 36px;
+	margin-top:40px;
+	position: absolute;
+	opacity:1;
+	/* color: #FFFFFF; 
+	text-align: center;  */ 
+	cursor: pointer;
+	/* z-index: 500;  */
+	/* padding: 8px 11px; */
+	display: block;
+	
+	-webkit-border-radius: 30%;
+    -moz-border-radius: 30%;
+    border-radius: 30%;
+    
+    -webkit-transition: background-color 0.2s;
+    -moz-transition: background-color 0.2s;
+    transition: background-color 0.2s;
+}
+.pop{
+	background-color: #ffffff;
+	position: fixed; 
+	margin: auto;
+}
+#tabinputform{
+	background-color: #ffffff;
+	padding: 10px; 
+	position: fixed; 
+	margin: auto;
+	font-family: 'FuturaPT-Book';
+	font-size: 11pt;
+	width: 600px;
+	padding-top:20px;
+}
+#tabinputform table,td{
+	vertical-align: middle;
+	height: 30px;
+	
+}
+#tabinputform .button
+{
+	background-color: #1a1a1a; /* Green */
+    border: none;
+    color: white;
+    padding: 4px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    margin: 0px 7px 3px 0px;
+}
+#tabinputform .button:hover
+{
+	background-color: #ff2b00;
+}
+#tabinputform INPUT[type="text"] {
+  display: block;
+  margin-bottom: 5px;
+  width: 80%;
+  font-size: 11pt; 
+  /* font-weight: 600; */
+  padding: 3px;
+  border: solid 1px #dcdcdc;
+  transition: box-shadow 0.3s, border 0.3s;
+  font-family: 'FuturaPT-Book';
+} 
+#tabinputform input[type="text"]:focus,
+#tabinputform input[type="text"].focus {
+ border: solid 1px #707070; 
+}
+#exit{
+	padding: 6px; 
+	background-color: #1a1a1a; 
+	color: white; 
+	position:fixed;
+	cursor:pointer;
+	z-index:200;
+}
+#exit:hover{
+	background-color: #ff2e00; 
+}
+.purchase
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 430px;
+	padding:3%;
+	opacity:0;
+	/* border: 1px solid #D7C7C7; */
+	z-index: 500;
+	background-color: #ffffff;
+}
+#tagit
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 460px;
+	padding:3%;
+	opacity:0.8;
+	/* border: 1px solid #D7C7C7; */
+	z-index: 500;
+	background-color: #ffffff;
+}
+#box
+{
+	position: absolute;
+	/* border: 1px solid #F10303; */
+	background-color: #F10303;
+	width: 20px;
+	height: 20px;
+	top: 0;
+	left: 0;
+	
+	-webkit-border-radius: 30%;
+    -moz-border-radius: 30%;
+    border-radius: 30%;
+    
+    -webkit-transition: background-color 0.2s;
+    -moz-transition: background-color 0.2s;
+    transition: background-color 0.2s;
+	/* z-index: 1000; */
+}
+
+/* #tagit .showup input {
+  display: block;
+  margin: 0;
+  width: 100%;
+  font-size: 18px;
+  padding: 5px;
+  border:none;
+} */
+
+#tagit .showup INPUT[type="text"] {
+  display: block;
+  margin-bottom: 5px;
+  width: 100%;
+  font-size: 11pt; 
+  font-weight: 600;
+  appearance: none;
+  border:none;
+  font-family: 'FuturaPT-Book';
+} 
+
+#tagit .showdesc INPUT[type="text"] {
+  display: block;
+  margin-bottom: 5px;
+  width: 100%;
+  font-size: 10pt; 
+  font-weight: 400; 
+  appearance: none;
+  border:none;
+  cursor:pointer;
+  float:right;
+  font-family: 'FuturaPT-Book';
+}
+
+#popup, #success, #failed {
+	z-index: 100; 
+	position: absolute; 
+	left: 0px; 
+	top: 0px; 
+	bottom: 0px; 
+	right: 0px; 
+	width: 100%; 
+	height: 100%;
+}
+
+#popup #popupback, #success #popupback, #failed #popupback {
+	position: fixed; 
+	left: 0px; 
+	top: 0px; 
+	background-color: #808080; 
+	opacity: 0.4; 
+	filter:alpha(opacity=40); 
+	width: 100%; 
+	height: 100%;
+} 
+
+#success .thanks{
+	background-color: #ffffff;
+	padding: 10px; 
+	position: fixed; 
+	margin: auto;
+	font-family: 'FuturaPT-Book';
+	font-size: 11pt;
+	width: 600px;
+	padding:40px;
+	top:40%;
+	left:30%;
+}
+
+#success #exits{
+	padding: 6px; 
+	background-color: #1a1a1a; 
+	color: white; 
+	position:fixed;
+	cursor:pointer;
+	z-index:200;
+	top:40%;
+	left:73%;
+	float:right;
+}
+#success #exits:hover{
+	background-color: #ff2e00; 
+}
+#tagit .name
+{
+	float: left; 
+	/* background-color: #add8e6; */
+	width: 50%;
+	padding: 5px; 
+	font-size: 12pt; 
+	z-index: 500;
+	font-weight:600;
+	color: #1a1a1a;
+	text-align: left;
+}
+#tagit .desc
+{
+	float: right; 
+	/* background-color: #FFF; */
+	width: 45%;
+	padding-top: 10%;
+	padding-bottom: 4%; 
+	padding-left: 4%;
+	font-size: 10pt; 
+	z-index: 500;
+	color: #1a1a1a;
+	text-align: left;
+}
+#tagit .button
+{
+	background-color: #1a1a1a; /* Green */
+    border: none;
+    color: white;
+    padding: 4px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    margin: 0px 7px 3px 0px;
+}
+#tagit .button:hover
+{
+	background-color: #ff2b00;
+}
+#tagit DIV.text
+{
+	margin-bottom: 5px;
+}
+/* #tagit INPUT[type=text]
+{
+	margin-bottom: 5px;
+	border:none;
+	font-size: 12pt; 
+  	font-weight: 600;
+  	appearance: none;
+} */
+#tagit #tagname
+{
+	width: 110px;
+}
+#taglist
+{
+	width: 300px;
+	min-height: 200px;
+	height: auto !important;
+	height: 200px;
+	float: left;
+	padding: 10px;
+	margin-left: 20px;
+	color: #000;
+}
+#taglist OL
+{
+	padding: 0 20px;
+	float: left;
+	cursor: pointer;
+}
+#taglist OL A
+{
+}
+#taglist OL A:hover
+{
+	text-decoration: underline;
+}
+.tagtitle
+{
+	font-size: 14px;
+	text-align: center;
+	width: 100%;
+	float: left;
+}
